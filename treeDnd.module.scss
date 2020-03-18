@@ -1,0 +1,61 @@
+.root {
+    height: 110;
+    flex-grow: 1;
+    max-width: 400;
+    text-align: left;
+}
+.treeItemEdit {
+    display:flex;
+    flex-direction: row;
+}
+.editBox div fieldset:focus {
+    border-color:red!important;
+}
+.fieldset {
+    color:white;
+}
+.editBx {
+    padding: 5.25px!important;
+}
+.treeItem {
+    position: relative;
+    margin-left:6px!important;
+}
+.ghostTreeItem {
+    font-size: 16px;
+    opacity:0.5;
+    height: 4px;
+    color: white;
+    background-color: rgba(0, 0, 255, 1);
+    font-weight: bold;
+    width: calc(100% - 2px);
+}
+.ghostTreeItemAddChild {
+    margin-left: 45px;
+    background-color: rgba(0, 180, 0, 1);
+}
+.noSelfDrop{
+    background-color: rgb(241, 78, 78);
+    color:white;
+}
+.shakeTree {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }

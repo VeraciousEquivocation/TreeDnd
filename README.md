@@ -8,3 +8,5 @@ However, saving the changes has not been implemented, but the UI is in place.
 
 There is even code in place to allow for rearranging an item into itself.
 This is unusual, so that's commented out, and instead the tree will highlight in red, and shake, indicating to the user that this cannot be done. That particular part of the code may also have some bugs as it has not be thoroughly tested.
+
+![test](https://user-images.githubusercontent.com/8482594/77002756-6743cf80-6932-11ea-9080-d146513d6ea3.gif)

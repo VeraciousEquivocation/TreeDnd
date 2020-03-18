@@ -1,7 +1,7 @@
 # TreeDnd
 MaterialUI's Tree with Drag and Drop and editable tree items
 
-The code allows for rearrangement of the tree items.
+The code allows for rearrangement of the tree items, above, below, or as a child. This is done by watching the cordinates of the mouse in relation to the tree item. i.e. Dragging the mouse to the top half, bottom half, and the right side of an item determine the drop location.
 
 ![test](https://user-images.githubusercontent.com/8482594/77002041-43cc5500-6931-11ea-8fd0-718cbf0f0a58.gif)
 

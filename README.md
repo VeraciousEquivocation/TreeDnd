@@ -2,10 +2,12 @@
 MaterialUI's Tree with Drag and Drop and editable tree items
 
 The code allows for rearrangement of the tree items.
+
 ![test](https://user-images.githubusercontent.com/8482594/77002041-43cc5500-6931-11ea-8fd0-718cbf0f0a58.gif)
 
 You can also double click on a tree item, to bring up a MaterialUI textfield.
 However, saving the changes has not been implemented, but the UI is in place.
+
 ![test](https://user-images.githubusercontent.com/8482594/77002891-b2f67900-6932-11ea-951a-c2e9ff4fed6f.gif)
 
 There is even code in place to allow for rearranging an item into itself.
